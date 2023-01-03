@@ -19,7 +19,7 @@ def easter_date(year):
     e = math.floor(2*b + 4*c + 6*d + n) % 7
     r = 22 + d + e
     s = d + e - 9
-
+    
     if (d == 29 and e == 6 and s == 26):
         return("April 19")
     elif (d == 28 and e == 6 and (11*m + 11) % 30 < 19 and s == 25):
@@ -28,9 +28,6 @@ def easter_date(year):
         return("April " + str(s))
     else:
         return("March " + str(r))
-
-
-
 
 if __name__ == "__main__":
     try:

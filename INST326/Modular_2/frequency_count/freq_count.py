@@ -1,6 +1,6 @@
 import string
 
-text = "to to to the the the be or not to be...."
+text = "to to to the the,, +=the be or not to be...."
 word_count_dict = {}
 
 def strip_punctuation(line):

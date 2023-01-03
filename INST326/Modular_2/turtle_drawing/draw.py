@@ -9,4 +9,7 @@ def polygon(sides, length):
         turtle.forward(length)
         turtle.right(angles)
 
+    for j in range(sides):
+        turtle.right(angles)
+        turtle.forward(length)
 polygon(6, 50)
